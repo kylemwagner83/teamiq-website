@@ -18,9 +18,14 @@ a:active {
     color: black
 }
 
+body {
+    background-color: #fffdf4;
+}
+
 header {
-    height: 150px;
-    background-color: grey;
+    height: 50px;
+    background-color: #FBD304;
+    border-bottom: 5px solid #0064ba;
 }
 
 header ul {    
@@ -29,20 +34,44 @@ header ul {
 }
 
 header ul li {
-    margin: 115px 0px 0px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    margin: 15px 0px 0px 30px;
+    font-family: 'Crete Round', serif;
+    font-size: 24px;
 }
 
 .sidebar {
     height: 100%;
-    width: 175px;
+    width: 170px;
     position: fixed;
-    background-color: darkgrey;
+    background-color: #FBD304;
+    padding-top: 225px;
+    padding-left: 10px;
+    border-right: 5px solid #0064ba;
 }
 
-.sidebar li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+.sidebar li, .dropdown-btn {
+    font-family: 'Crete Round', serif;
+    font-size: 18px;
     margin-top: 30px;
+    border: none;
+    background-color: #FBD304;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.active {
+    background-color: #FBD304;
+}
+
+.software-dropdown-container {
+    display: none;
+}
+
+.software-dropdown-container li{
+    margin-left: 10px;
 }
