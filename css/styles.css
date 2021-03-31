@@ -43,7 +43,7 @@ header ul li {
     display: block;
     height: 100%;
     width: 170px;
-    position: fixed;
+    /* position: fixed; */
     background-color: #FBD304;
     padding-top: 225px;
     padding-left: 10px;
@@ -79,6 +79,10 @@ header ul li {
 
 main {
     display: flex;
+    background-image: url(../img/inukshuk.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 875px;
+    
 }
 
 .main-section {
