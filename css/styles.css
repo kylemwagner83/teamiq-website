@@ -40,8 +40,8 @@ header ul li {
 }
 
 .sidebar {
-    display: block;
-    height: 100%;
+    /* display: block; */
+    height: 115%;
     width: 170px;
     /* position: fixed; */
     background-color: #FBD304;
@@ -79,8 +79,9 @@ header ul li {
 
 main {
     display: flex;
-    background-image: url(../img/inukshuk.jpg);
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-image: url(../img/inukshuk-white.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 875px;
     
 }
@@ -101,7 +102,7 @@ h2 {
     font-weight: 500;
     line-height: 1.5;
     width: 75%;
-    margin: 50px 0px 0px 0px;   
+    margin: 50px 0px 0px 0px;
 }
 
 .main-article p {
